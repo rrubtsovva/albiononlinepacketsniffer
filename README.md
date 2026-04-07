@@ -1,6 +1,6 @@
 # Albion Packet Studio v2.4.1
 
-A packet analysis and network inspection tool for Albion Online built with Go and giu. Captures, decodes, and visualizes Photon protocol traffic in real time. Includes a built-in radar overlay, player tracker, market scanner, and a set of client-side performance tweaks.
+A packet analysis and network inspection tool for Albion Online built with Python, and some dependencies. Captures, decodes, and visualizes Photon protocol traffic in real time. Includes a built-in radar overlay, player tracker, market scanner, and a set of client-side performance tweaks.
 
 <img width="1920" height="1031" alt="1" src="https://github.com/user-attachments/assets/dcaa794b-d315-4f01-9fc0-f9a877ea306a" />
 
