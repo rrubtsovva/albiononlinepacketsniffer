@@ -2,9 +2,8 @@
 
 A packet analysis and network inspection tool for Albion Online built with Go and giu. Captures, decodes, and visualizes Photon protocol traffic in real time. Includes a built-in radar overlay, player tracker, market scanner, and a set of client-side performance tweaks.
 
-![Packet Sniffer](screenshots/1.png)
+<img width="1920" height="1031" alt="1" src="https://github.com/user-attachments/assets/dcaa794b-d315-4f01-9fc0-f9a877ea306a" />
 
----
 
 ## Table of Contents
 
@@ -135,7 +134,8 @@ Every game action maps to a numeric OpCode. Some known mappings:
 
 ### Packet Sniffer
 
-![Packet Sniffer](screenshots/1.png)
+<img width="1920" height="1031" alt="1" src="https://github.com/user-attachments/assets/f7c8bb3f-a8f3-43db-938b-cc8d97d61690" />
+
 
 The primary module. Displays a live scrolling table of all captured packets with the following columns:
 
@@ -155,7 +155,8 @@ The left panel provides filtering controls:
 
 ### Decoder
 
-![Decoder](screenshots/2.png)
+<img width="1920" height="999" alt="2" src="https://github.com/user-attachments/assets/94f13450-7af1-432a-ac5b-f82acd73f7b1" />
+
 
 Manual packet inspection and decoding. Accepts raw hex input and parses it through the full Photon protocol stack.
 
@@ -176,7 +177,8 @@ This module is useful for offline analysis of saved packet dumps, debugging cust
 
 ### Radar
 
-![Radar](screenshots/3.png)
+<img width="1920" height="999" alt="3" src="https://github.com/user-attachments/assets/aa0f1fb5-80c2-4c82-ad92-d70c1420c679" />
+
 
 A 2D top-down radar view showing entities in the current zone relative to the player's position.
 
@@ -203,7 +205,8 @@ The radar canvas renders a grid overlay with concentric range circles and crossh
 
 ### FPS Boost
 
-![FPS Boost](screenshots/4.png)
+<img width="1920" height="1000" alt="4" src="https://github.com/user-attachments/assets/9f8ba1c3-a931-4ad0-ab65-61f16a6638b6" />
+
 
 Client-side performance optimization module. Modifies rendering parameters and system configuration to improve frame rate.
 
@@ -232,7 +235,8 @@ Client-side performance optimization module. Modifies rendering parameters and s
 
 ### Player Tracker
 
-![Player Tracker](screenshots/5.png)
+<img width="1920" height="996" alt="5" src="https://github.com/user-attachments/assets/58fc3e1c-cb00-461b-ac4b-aa11aefc58f7" />
+
 
 Monitors and displays information about players detected in the current zone.
 
@@ -259,7 +263,8 @@ Player names are color-coded: red for hostile guilds/alliances, purple for neutr
 
 ### Market
 
-![Market](screenshots/6.png)
+<img width="1920" height="996" alt="6" src="https://github.com/user-attachments/assets/f6456bff-bf6c-45ed-95b6-ca21f514e7a8" />
+
 
 Intercepts and displays market order data from the game's trading system.
 
@@ -286,7 +291,7 @@ Intercepts and displays market order data from the game's trading system.
 
 ### Settings
 
-![Settings](screenshots/7.png)
+<img width="1920" height="1001" alt="7" src="https://github.com/user-attachments/assets/d4330f74-4301-4d91-81f0-9dba33bb44c0" />
 
 Global application configuration split into two panels.
 
@@ -304,12 +309,6 @@ Global application configuration split into two panels.
 ---
 
 ## Installation
-
-
-
-Or install dependencies manually:
-
-
 
 Windows only: install [Npcap](https://npcap.com/) for packet capture functionality.
 
